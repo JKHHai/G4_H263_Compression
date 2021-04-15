@@ -4,7 +4,7 @@ This repository contains the software and hardware necessary to create a media c
 ## How to use
 1. Download or clone the repository from GitHub
 2. Unzip any files necessary
-3. Open the Vivado project from src
+3. Open the Vivado project "fifoStream" from src
 4. Open command line and install pyserial and matplotlib libraries
 5. Open Vivado SDK and run the software project
 6. Set the ILA triggers for TVALID being high for run-length encoder
