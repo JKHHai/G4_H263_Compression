@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_one_dimension_dct_behav/xsimk -simmode gui -wdb tb_one_dimension_dct_behav.wdb -simrunnum 0 -socket 45399
+Design successfully loaded
+Design Loading Memory Usage: 33192 KB (Peak: 33248 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 114928 KB (Peak: 180464 KB)
+Simulation CPU Usage: 30 ms

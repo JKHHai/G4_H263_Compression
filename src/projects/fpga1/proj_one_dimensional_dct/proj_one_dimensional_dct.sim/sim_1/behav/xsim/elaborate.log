@@ -1,0 +1,23 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/justin/jhai/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 63c682be94ce4fcdbe1109d0e04f4374 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_one_dimension_dct_behav xil_defaultlib.tb_one_dimension_dct xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" Line 1. Module dsp_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" Line 1. Module dsp_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" Line 1. Module dsp_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" Line 1. Module dsp_add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" Line 1. Module dsp_sub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" Line 1. Module dsp_sub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" Line 1. Module dsp_sub doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" Line 1. Module dsp_sub doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dsp_add
+Compiling module xil_defaultlib.dsp_sub
+Compiling module xil_defaultlib.one_dimension_dct_default
+Compiling module xil_defaultlib.tb_one_dimension_dct
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_one_dimension_dct_behav

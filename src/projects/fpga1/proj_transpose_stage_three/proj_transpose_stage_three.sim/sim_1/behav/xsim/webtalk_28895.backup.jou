@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 14 23:40:03 2021
+# Process ID: 28895
+# Current directory: /home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_transpose_stage_three/proj_transpose_stage_three.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_transpose_stage_three/proj_transpose_stage_three.sim/sim_1/behav/xsim/xsim.dir/tb_transpose_stage_three_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_transpose_stage_three/proj_transpose_stage_three.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_transpose_stage_three/proj_transpose_stage_three.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_transpose_stage_three/proj_transpose_stage_three.sim/sim_1/behav/xsim/xsim.dir/tb_transpose_stage_three_behav/webtalk/xsim_webtalk.tcl -notrace

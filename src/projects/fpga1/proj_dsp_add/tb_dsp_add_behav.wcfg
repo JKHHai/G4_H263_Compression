@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_dsp_add_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_dsp_add" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9733334fs"></ZoomStartTime>
+      <ZoomEndTime time="71333335fs"></ZoomEndTime>
+      <Cursor1Time time="55000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="172"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="logic" fp_name="/tb_dsp_add/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_dsp_add/r_aresetn">
+      <obj_property name="ElementShortName">r_aresetn</obj_property>
+      <obj_property name="ObjectShortName">r_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dsp_add/r_in_a">
+      <obj_property name="ElementShortName">r_in_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_in_a[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dsp_add/r_in_b">
+      <obj_property name="ElementShortName">r_in_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_in_b[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dsp_add/r_in_c">
+      <obj_property name="ElementShortName">r_in_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_in_c[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_dsp_add/r_out">
+      <obj_property name="ElementShortName">r_out[64:0]</obj_property>
+      <obj_property name="ObjectShortName">r_out[64:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

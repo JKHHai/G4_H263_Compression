@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dsp_sub
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/tb/fpga1/tb_dsp_sub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_dsp_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_dsp_sub/proj_dsp_sub.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

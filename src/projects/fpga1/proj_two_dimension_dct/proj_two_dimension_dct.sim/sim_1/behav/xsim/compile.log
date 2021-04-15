@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dsp_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dsp_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/one_dimension_dct.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_dimension_dct
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/path_switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module path_switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/transpose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/transpose_stage_one.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose_stage_one
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/transpose_stage_three.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose_stage_three
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/transpose_stage_two.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transpose_stage_two
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/two_dimension_dct.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_dimension_dct
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/tb/fpga1/tb_two_dimension_dct.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_two_dimension_dct
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_two_dimension_dct/proj_two_dimension_dct.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

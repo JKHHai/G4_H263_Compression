@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dsp_add
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/tb/fpga1/tb_dsp_add.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_dsp_add
+INFO: [VRFC 10-2458] undeclared symbol w_aresetn, assumed default net type wire [/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/tb/fpga1/tb_dsp_add.sv:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/projects/fpga1/proj_dsp_add/proj_dsp_add.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

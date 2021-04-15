@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../files/fpga1/path_switch.v" \
+"../../../../../../../files/fpga1/transpose.v" \
+"../../../../../../../files/fpga1/transpose_stage_one.v" \
+"../../../../../../../files/fpga1/transpose_stage_three.v" \
+"../../../../../../../files/fpga1/transpose_stage_two.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../tb/fpga1/tb_transpose.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

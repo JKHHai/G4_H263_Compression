@@ -1,0 +1,14 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/justin/jhai/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 124596fd9da7466cbedfc3b04aced7c9 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_dsp_mul_behav xil_defaultlib.tb_dsp_mul xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/justin/jhai/universityoftoronto/ECE532/final_project/G4_H263_Compression/src/files/fpga1/dsp_mul.v" Line 1. Module dsp_mul doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dsp_mul
+Compiling module xil_defaultlib.tb_dsp_mul
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_dsp_mul_behav

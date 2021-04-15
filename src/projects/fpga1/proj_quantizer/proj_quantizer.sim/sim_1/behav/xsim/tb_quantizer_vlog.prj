@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../files/fpga1/dsp_mul.v" \
+"../../../../../../../files/fpga1/quantizer.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../tb/fpga1/tb_quantizer.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
