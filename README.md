@@ -11,3 +11,4 @@ This repository contains the software and hardware necessary to create a media c
 * Isamu Poy
 
 ## Acknowledgements
+We would like to thank Xilinx for providing open source 3rd party IP cores (TEMAC, UARTLite, AXIS FIFO, etc.) which we have utilized in our design. We also like to thank Professor Chow for supplying the class with Xilinx FPGAs over the FPGA-net and the TAs for their continued support on Piazza.
