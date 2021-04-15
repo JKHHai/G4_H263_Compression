@@ -16,7 +16,8 @@ This repository contains the software and hardware necessary to create a media c
 Legend:  
 **folder**  
 *file.txt*  
-**G4_H263_Compression:**  
+
+**G4_H263_Compression:**
 * **docs:** Holds all documents including presentations, etc.  
   * *final_report.pdf*
   * *presentation_mid_project_demo.pdf:* Slides from mid-project demo.
