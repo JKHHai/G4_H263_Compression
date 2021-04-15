@@ -28,7 +28,6 @@ Legend:
     * **fpga1:**
       * *cat.jpeg:* Test image
       * *fifo_mem.v:* FIFO used by frame generator
-      * *frame_destructor_custom.v:* Converts Ethernet frames into AXI-Stream transfers
       * *frame_generator_custom.v:* Converts AXI-Stream transfers into Ethernet frames
       * *one_dimension_dct.v*
       * *quantizer.v*
@@ -38,12 +37,12 @@ Legend:
       * *two_dimension_dct.v*
       * *zig_zag.v*
     * **fpga2:**
+      * *frame_destructor_custom.v:* Converts Ethernet frames into AXI-Stream transfers
       * *Helloworld.c:* Contains decompression functions and Microblaze flow
   * **ip_repo:**
     * **fpga1:**
       * **fpga1_deployment_receiving_block:** Receives AXI-Stream packets
       * **fpga1_deployment_source_block:** Sends AXI-Stream packets
-      * **ip_frame_destructor_custom**
       * **ip_frame_generator_custom**
       * **ip_quantizer**
       * **ip_run_length_encoder**
@@ -51,6 +50,8 @@ Legend:
       * **ip_zig_zag**
       * **one_dimensional_dct**
       * **two_dimensional_dct**
+    * **fpga2:**
+      * **ip_frame_destructor_custom**
   * **projects:** Holds all Vivado projects used to generate bitstreams/test cores
     * **fpga1**:
       * **fifoStream**: Contains top-level block design for FPGA 1
@@ -58,8 +59,6 @@ Legend:
       * **proj_compression_deployment:** Used to test compression algorithm on FPGA.
       * **proj_frame_generator_custom:** Used to test in simulation.
       * **proj_frame_generator_custom_deployment:** Used to test core on FPGA.
-      * **proj_frame_destructor_custom:** Used to test in simulation.
-      * **proj_frame_destructor_custom_deployment:** Used to test core on FPGA.
       * **proj_one_dimensional_dct:** Used to test in simulation.
       * **proj_one_dimensional_dct_deployment:** Used to test core on FPGA.
       * **proj_quantizer:** Used to test in simulation.
@@ -74,9 +73,10 @@ Legend:
       * **proj_zig_zag_deployment:** Used to test core on FPGA.
     * **fpga2:**
       * **proj_fpga_2_deployment:** Contains top-level block design for FPGA 2. 
+      * **proj_frame_destructor_custom:** Used to test in simulation.
+      * **proj_frame_destructor_custom_deployment:** Used to test core on FPGA.
   * **tb:** Holds all testbench files
     * **fpga1:**
-      * *tb_frame_destructor_custom.sv*
       * *tb_frame_generator_custom.sv*
       * *tb_one_dimension_dct.sv*
       * *tb_path_switch.sv*
@@ -85,6 +85,8 @@ Legend:
       * *tb_transpose.sv*
       * *tb_two_dimension_dct.sv*
       * *tb_zig_zag.sv*
+    * **fpga2:**
+      * *tb_frame_destructor_custom.sv*
 
 ## Authors
 * Justin Hai
