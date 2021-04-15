@@ -4,6 +4,9 @@ This repository contains the software and hardware necessary to create a media c
 ## How to use
 
 ## Repository Structure
+src
+docs
+tree --dirsfirst --noreport -I README.md | sed 's/^/    /' > README.md
 
 ## Authors
 * Justin Hai
