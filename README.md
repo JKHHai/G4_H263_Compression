@@ -52,27 +52,27 @@ Legend:
     * **two_dimensional_dct**
   * **projects:** Holds all Vivado projects used to generate bitstreams/test cores
     * **fpga1**:
-      * **fifoStream**: Contains top-level block design for FPGA 1
-        * **fifoStream.sdk/streamFIFO/src/***helloworld.c*: Contains functions for connecting to PC 1 via UARTLite and sending data to   compression cores.
-      * **proj_compression_deployment:** Used to test compression algorithm on FPGA.
+      * <s>**fifoStream**: Contains top-level block design for FPGA 1</s>
+        * <s>**fifoStream.sdk/streamFIFO/src/***helloworld.c*: Contains functions for connecting to PC 1 via UARTLite and sending data to compression cores.</s>
+      * <s>**proj_compression_deployment:** Used to test compression algorithm on FPGA.</s>
       * **proj_frame_generator_custom:** Used to test in simulation.
-      * **proj_frame_generator_custom_deployment:** Used to test core on FPGA.
+      * <s>**proj_frame_generator_custom_deployment:** Used to test core on FPGA.</s>
       * **proj_one_dimensional_dct:** Used to test in simulation.
-      * **proj_one_dimensional_dct_deployment:** Used to test core on FPGA.
+      * <s>**proj_one_dimensional_dct_deployment:** Used to test core on FPGA.</s>
       * **proj_quantizer:** Used to test in simulation.
-      * **proj_quantizer_deployment:** Used to test core on FPGA.
+      * <s>**proj_quantizer_deployment:** Used to test core on FPGA.</s>
       * **proj_run_length_encoder:** Used to test in simulation. 
-      * **proj_run_length_encoder_deployment:** Used to test core on FPGA.
+      * <s>**proj_run_length_encoder_deployment:** Used to test core on FPGA.</s>
       * **proj_transpose:** Used to test in simulation.
-      * **proj_transpose_deployment:** Used to test core on FPGA.
+      * <s>**proj_transpose_deployment:** Used to test core on FPGA.</s>
       * **proj_two_dimension_dct:** Used to test in simulation.
-      * **proj_two_dimension_dct_deployment:** Used to test core on FPGA.
+      * <s>**proj_two_dimension_dct_deployment:** Used to test core on FPGA.</s>
       * **proj_zig_zag:** Used to test in simulation.
-      * **proj_zig_zag_deployment:** Used to test core on FPGA.
+      * <s>**proj_zig_zag_deployment:** Used to test core on FPGA.</s>
     * **fpga2:**
-      * **proj_fpga_2_deployment:** Contains top-level block design for FPGA 2. 
+      * <s>**proj_fpga_2_deployment:** Contains top-level block design for FPGA 2. </s>
       * **proj_frame_destructor_custom:** Used to test in simulation.
-      * **proj_frame_destructor_custom_deployment:** Used to test core on FPGA.
+      * <s>**proj_frame_destructor_custom_deployment:** Used to test core on FPGA.</s>
   * **tb:** Holds all testbench files
     * **fpga1:**
       * *tb_frame_generator_custom.sv*
