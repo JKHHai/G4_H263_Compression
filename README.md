@@ -17,7 +17,7 @@ Legend:
 **folder**  
 *file.txt*  
 **G4_H263_Compression:**  
-* **doc:** Holds all documents including presentations, etc.  
+* **docs:** Holds all documents including presentations, etc.  
   * *final_report.pdf*
   * *presentation_mid_project_demo.pdf:* Slides from mid-project demo.
   * *presentation_final_demo.pdf*: Slides from final demo. 
