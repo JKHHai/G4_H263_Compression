@@ -38,52 +38,52 @@ Legend:
       * *zig_zag.v*
     * **fpga2:**
       * *Helloworld.c:* Contains decompression functions and Microblaze flow
-* **ip_repo:**
-  * **fpga1:**
-    * **fpga1_deployment_receiving_block:** Receives AXI-Stream packets
-    * **fpga1_deployment_source_block:** Sends AXI-Stream packets
-    * **ip_frame_destructor_custom**
-    * **ip_frame_generator_custom**
-    * **ip_quantizer**
-    * **ip_run_length_encoder**
-    * **ip_transpose**
-    * **ip_zig_zag**
-    * **one_dimensional_dct**
-    * **two_dimensional_dct**
-* **projects:** Holds all Vivado projects used to generate bitstreams/test cores
-  * **fpga1**:
-    * **fifoStream**: Contains top-level block design for FPGA 1
-      * *fifoStream.sdk/streamFIFO/src/helloworld.c*: Contains functions for connecting to PC 1 via UARTLite and sending data to compression cores.
-    * **proj_compression_deployment:** Used to test compression algorithm on FPGA.
-    * **proj_frame_generator_custom:** Used to test in simulation.
-    * **proj_frame_generator_custom_deployment:** Used to test core on FPGA.
-    * **proj_frame_destructor_custom:** Used to test in simulation.
-    * **proj_frame_destructor_custom_deployment:** Used to test core on FPGA.
-    * **proj_one_dimensional_dct:** Used to test in simulation.
-    * **proj_one_dimensional_dct_deployment:** Used to test core on FPGA.
-    * **proj_quantizer:** Used to test in simulation.
-    * **proj_quantizer_deployment:** Used to test core on FPGA.
-    * **proj_run_length_encoder:** Used to test in simulation. 
-    * **proj_run_length_encoder_deployment:** Used to test core on FPGA.
-    * **proj_transpose:** Used to test in simulation.
-    * **proj_transpose_deployment:** Used to test core on FPGA.
-    * **proj_two_dimension_dct:** Used to test in simulation.
-    * **proj_two_dimension_dct_deployment:** Used to test core on FPGA.
-    * **proj_zig_zag:** Used to test in simulation.
-    * **proj_zig_zag_deployment:** Used to test core on FPGA.
-  * **fpga2:**
-    * **proj_fpga_2_deployment:** Contains top-level block design for FPGA 2. 
-* **tb:** Holds all testbench files
-  * **fpga1:**
-    * *tb_frame_destructor_custom.sv*
-    * *tb_frame_generator_custom.sv*
-    * *tb_one_dimension_dct.sv*
-    * *tb_path_switch.sv*
-    * *tb_quantizer.sv*
-    * *tb_run_length_encoder.sv*
-    * *tb_transpose.sv*
-    * *tb_two_dimension_dct.sv*
-    * *tb_zig_zag.sv*
+  * **ip_repo:**
+    * **fpga1:**
+      * **fpga1_deployment_receiving_block:** Receives AXI-Stream packets
+      * **fpga1_deployment_source_block:** Sends AXI-Stream packets
+      * **ip_frame_destructor_custom**
+      * **ip_frame_generator_custom**
+      * **ip_quantizer**
+      * **ip_run_length_encoder**
+      * **ip_transpose**
+      * **ip_zig_zag**
+      * **one_dimensional_dct**
+      * **two_dimensional_dct**
+  * **projects:** Holds all Vivado projects used to generate bitstreams/test cores
+    * **fpga1**:
+      * **fifoStream**: Contains top-level block design for FPGA 1
+        * **fifoStream.sdk/streamFIFO/src/***helloworld.c*: Contains functions for connecting to PC 1 via UARTLite and sending data to   compression cores.
+      * **proj_compression_deployment:** Used to test compression algorithm on FPGA.
+      * **proj_frame_generator_custom:** Used to test in simulation.
+      * **proj_frame_generator_custom_deployment:** Used to test core on FPGA.
+      * **proj_frame_destructor_custom:** Used to test in simulation.
+      * **proj_frame_destructor_custom_deployment:** Used to test core on FPGA.
+      * **proj_one_dimensional_dct:** Used to test in simulation.
+      * **proj_one_dimensional_dct_deployment:** Used to test core on FPGA.
+      * **proj_quantizer:** Used to test in simulation.
+      * **proj_quantizer_deployment:** Used to test core on FPGA.
+      * **proj_run_length_encoder:** Used to test in simulation. 
+      * **proj_run_length_encoder_deployment:** Used to test core on FPGA.
+      * **proj_transpose:** Used to test in simulation.
+      * **proj_transpose_deployment:** Used to test core on FPGA.
+      * **proj_two_dimension_dct:** Used to test in simulation.
+      * **proj_two_dimension_dct_deployment:** Used to test core on FPGA.
+      * **proj_zig_zag:** Used to test in simulation.
+      * **proj_zig_zag_deployment:** Used to test core on FPGA.
+    * **fpga2:**
+      * **proj_fpga_2_deployment:** Contains top-level block design for FPGA 2. 
+  * **tb:** Holds all testbench files
+    * **fpga1:**
+      * *tb_frame_destructor_custom.sv*
+      * *tb_frame_generator_custom.sv*
+      * *tb_one_dimension_dct.sv*
+      * *tb_path_switch.sv*
+      * *tb_quantizer.sv*
+      * *tb_run_length_encoder.sv*
+      * *tb_transpose.sv*
+      * *tb_two_dimension_dct.sv*
+      * *tb_zig_zag.sv*
 
 ## Authors
 * Justin Hai
