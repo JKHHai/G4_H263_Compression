@@ -40,18 +40,16 @@ Legend:
       * *frame_destructor_custom.v:* Converts Ethernet frames into AXI-Stream transfers
       * *Helloworld.c:* Contains decompression functions and Microblaze flow
   * **ip_repo:**
-    * **fpga1:**
-      * **fpga1_deployment_receiving_block:** Receives AXI-Stream packets
-      * **fpga1_deployment_source_block:** Sends AXI-Stream packets
-      * **ip_frame_generator_custom**
-      * **ip_quantizer**
-      * **ip_run_length_encoder**
-      * **ip_transpose**
-      * **ip_zig_zag**
-      * **one_dimensional_dct**
-      * **two_dimensional_dct**
-    * **fpga2:**
-      * **ip_frame_destructor_custom**
+    * **fpga1_deployment_receiving_block:** Receives AXI-Stream packets
+    * **fpga1_deployment_source_block:** Sends AXI-Stream packets
+    * **ip_frame_destructor_custom**
+    * **ip_frame_generator_custom**
+    * **ip_quantizer**
+    * **ip_run_length_encoder**
+    * **ip_transpose**
+    * **ip_zig_zag**
+    * **one_dimensional_dct**
+    * **two_dimensional_dct**
   * **projects:** Holds all Vivado projects used to generate bitstreams/test cores
     * **fpga1**:
       * **fifoStream**: Contains top-level block design for FPGA 1
