@@ -3,7 +3,7 @@
 As of right now, several projects in the Repository Structure have not been uploaded to github, over concerns that proprietary Xilinx IP may be uploaded as well. 
 
 ## Note about the software
-Serial2.py is utilized for the pyserial connection whereas the C code made for the microblaze is included inside the SDK folder under the name "helloworld.c". 
+Serial2.py is utilized for the pyserial connection whereas the C code made for the microblaze is included inside the SDK folder of the project "fifostream" under the name "helloworld.c". 
 
 ## What is it?
 This repository contains the software and hardware necessary to create a media compression system using the H.263 algorithm. At the current state, the system only supports image compression but can be extended to video with image compensation. We hope that this project will serve as a basis for future media compression based designs
