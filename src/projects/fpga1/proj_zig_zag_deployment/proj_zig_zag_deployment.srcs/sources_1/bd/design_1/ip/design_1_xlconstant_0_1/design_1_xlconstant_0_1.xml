@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>design_1_xlconstant_0_1</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:model>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>dout</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.CONST_WIDTH&apos;)) - 1)">639</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>dummy_view</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>CONST_WIDTH</spirit:name>
+        <spirit:displayName>Const Width</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_WIDTH">640</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CONST_VAL</spirit:name>
+        <spirit:displayName>Const Val</spirit:displayName>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_VAL" spirit:bitStringLength="640">0x1003F0E0300DC3E0F4360BC28080270B8350F03B0D02D0981F0601005C1E0942C0CC3A0E4320AC240741603C0801C0E0541C08C2A0C4290881B0500D0180503013068210641202C0400C0A0440900801</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:description>Gives a constant signed value.</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">design_1_xlconstant_0_1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CONST_WIDTH</spirit:name>
+      <spirit:displayName>Const Width</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_WIDTH" spirit:order="3" spirit:minimum="1" spirit:maximum="4096" spirit:rangeType="long">640</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CONST_VAL</spirit:name>
+      <spirit:displayName>Const Val</spirit:displayName>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_VAL" spirit:order="4">0b000100000000001111110000111000000011000000001101110000111110000011110100001101100000101111000010100000001000000000100111000010111000001101010000111100000011101100001101000000101101000010011000000111110000011000000001000000000101110000011110000010010100001011000000110011000011101000001110010000110010000010101100001001000000011101000001011000000011110000001000000000011100000011100000010101000001110000001000110000101010000011000100001010010000100010000001101100000101000000001101000000011000000001
+0100000011000000010011000001101000001000010000011001000001001000000010110000000100000000001100000010100000010001000000100100000000100000000001</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:displayName>Constant</xilinx:displayName>
+      <xilinx:coreRevision>5</xilinx:coreRevision>
+      <xilinx:configElementInfos>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CONST_VAL" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CONST_WIDTH" xilinx:valueSource="user"/>
+      </xilinx:configElementInfos>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="224ff974"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="905deaa3"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="0fa77f35"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="f74432fe"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

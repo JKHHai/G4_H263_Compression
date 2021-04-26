@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>design_1_xlconstant_1_0</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:model>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>dout</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.CONST_WIDTH&apos;)) - 1)">1087</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>dummy_view</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>CONST_WIDTH</spirit:name>
+        <spirit:displayName>Const Width</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_WIDTH">1088</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CONST_VAL</spirit:name>
+        <spirit:displayName>Const Val</spirit:displayName>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_VAL" spirit:bitStringLength="1088">0x000000003FFCC0000FFD500003F98C5514000000003FFCC0000FFD500003F98C49D4000000003FFCC0000FFD500003F98C3E94000000003FFCC0000FFD500003F98C3354000000003FFCC0000FFD500003F98C4814000000003FFCC0000FFD500003F98C2CD4000000003FFCC0000FFD500003F98C2194000000003FFCC0000FFD500003F98C0654</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:description>Gives a constant signed value.</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">design_1_xlconstant_1_0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CONST_WIDTH</spirit:name>
+      <spirit:displayName>Const Width</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_WIDTH" spirit:order="3" spirit:minimum="1" spirit:maximum="4096" spirit:rangeType="long">1088</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CONST_VAL</spirit:name>
+      <spirit:displayName>Const Val</spirit:displayName>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_VAL" spirit:order="4">0b000000000000000000000000000000000011111111111100110000000000000000001111111111010101000000000000000000111111100110001100010101010001010000000000000000000000000000000000001111111111110011000000000000000000111111111101010100000000000000000011111110011000110001001001110101000000000000000000000000000000000000111111111111001100000000000000000011111111110101010000000000000000001111111001100011000011111010010100000000000000000000000000000000000011111111111100110000000000000000001111111111010101000000
+00000000000011111110011000110000110011010101000000000000000000000000000000000000111111111111001100000000000000000011111111110101010000000000000000001111111001100011000100100000010100000000000000000000000000000000000011111111111100110000000000000000001111111111010101000000000000000000111111100110001100001011001101010000000000000000000000000000000000001111111111110011000000000000000000111111111101010100000000000000000011111110011000110000100001100101000000000000000000000000000000000000111111111111
+001100000000000000000011111111110101010000000000000000001111111001100011000000011001010100</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:displayName>Constant</xilinx:displayName>
+      <xilinx:coreRevision>5</xilinx:coreRevision>
+      <xilinx:configElementInfos>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CONST_VAL" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CONST_WIDTH" xilinx:valueSource="user"/>
+      </xilinx:configElementInfos>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="224ff974"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="905deaa3"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="0fa77f35"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="f74432fe"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>
