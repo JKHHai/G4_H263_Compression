@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Fri Mar 26 16:41:08 2021
+# Process ID: 29753
+# Current directory: /home/justin/jhai/universityoftoronto/ECE532/final_project/ECE532/hardware/fpga_2/projects/proj_fpga_2_deployment/proj_fpga_2_deployment.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/justin/jhai/universityoftoronto/ECE532/final_project/ECE532/hardware/fpga_2/projects/proj_fpga_2_deployment/proj_fpga_2_deployment.sdk/webtalk/webtalk.log
+# Journal file: /home/justin/jhai/universityoftoronto/ECE532/final_project/ECE532/hardware/fpga_2/projects/proj_fpga_2_deployment/proj_fpga_2_deployment.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

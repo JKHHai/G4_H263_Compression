@@ -1,0 +1,26 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port sys_clock -pg 1 -y 220 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst fpga1_deployment_sou_0 -pg 1 -lvl 3 -y 160 -defaultsOSRD
+preplace inst input_packet -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst fpga1_deployment_rec_0 -pg 1 -lvl 5 -y 250 -defaultsOSRD
+preplace inst frame_destructor_cus_0 -pg 1 -lvl 4 -y 80 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -y 150 -defaultsOSRD
+preplace inst expected_output -pg 1 -lvl 4 -y 280 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 210 -defaultsOSRD
+preplace netloc fpga1_deployment_rec_0_o_result_axis 1 5 1 1430
+preplace netloc expected_output_dout 1 4 1 NJ
+preplace netloc frame_destructor_cus_0_o_axis 1 4 2 1050 130 NJ
+preplace netloc sys_clock_1 1 0 1 N
+preplace netloc vio_0_probe_out0 1 2 1 N
+preplace netloc vio_0_probe_out1 1 0 6 20 280 NJ 280 450 70 800 180 1070 160 1410J
+preplace netloc fpga1_deployment_sou_0_o_test_axis 1 3 3 820 160 1040J 120 1430
+preplace netloc clk_wiz_0_clk_out1 1 1 5 220 30 460 60 810 170 1060 150 1420J
+preplace netloc input_packet_dout 1 2 1 440
+levelinfo -pg 1 0 120 330 630 930 1240 1530 1640 -top 0 -bot 340
+"
+}
+0

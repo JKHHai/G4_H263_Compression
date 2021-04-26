@@ -1,0 +1,6 @@
+07:50:09 **** Incremental Build of configuration Debug for project fpga2_decompression ****
+make all 
+make: Nothing to be done for 'all'.
+
+07:50:10 Build Finished (took 705ms)
+
