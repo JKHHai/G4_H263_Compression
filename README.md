@@ -58,7 +58,7 @@ Legend:
     * **two_dimensional_dct**
   * **projects:** Holds all Vivado projects used to generate bitstreams/test cores
     * **fpga1**:
-      * <s>**fifoStream**: Contains top-level block design for FPGA 1</s>
+      * **fifoStream**: Contains top-level block design for FPGA 1
         * <s>**fifoStream.sdk/streamFIFO/src/***helloworld.c*: Contains functions for connecting to PC 1 via UARTLite and sending data to compression cores.</s>
       * **proj_compression_deployment:** Used to test compression algorithm on FPGA.
       * **proj_frame_generator_custom:** Used to test in simulation.
